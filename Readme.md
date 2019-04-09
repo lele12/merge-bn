@@ -43,8 +43,3 @@ header = np.fromfile(fp, **dtype = np.int32, count = 5**)
 
 Make sure your weight file is equal to the header
 
-### Author
-
-Lele Liu
-
-mail: llliu@deepnorth.cn
