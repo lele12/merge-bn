@@ -37,7 +37,7 @@ When you use the weights file in darknet, you should set the all batch_normalize
 
 Compare the orgin weights file, the output weights file accuracy isn't change, but the speed improve 20%.
 
-**Note:** if you use the darknetAB version, you should check the size of your weights file header is equal to 5*sizeof(int). If it is not equal to 5 * sizeof(int), you should change here:
+**Note:** if you use the darknet AlexeyAB version, you should check the size of your weights file header is equal to 5*sizeof(int). If it is not equal to 5 * sizeof(int), you should change here:
 
 header = np.fromfile(fp, **dtype = np.int32, count = 5**)
 
